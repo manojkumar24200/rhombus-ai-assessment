@@ -134,7 +134,7 @@ I ran out of time for 4 of the 7 drift cases, so I prioritised one schema case a
 
 ## 4. Demo video
 
-_FILL: link_
+Not recorded: I ran out of time before the deadline. Every result shown here can be reproduced with the commands in section 1.
 
 ---
 
