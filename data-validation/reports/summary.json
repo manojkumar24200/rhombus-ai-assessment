@@ -1,0 +1,13 @@
+[
+  {
+    "case": "baseline",
+    "verdict": "FAIL",
+    "input_rows": 132,
+    "output_rows": 110,
+    "expected_rows": 110,
+    "hash": "fa3b48f6dff6abd9",
+    "failed_checks": [
+      "determinism"
+    ]
+  }
+]

@@ -11,3 +11,6 @@ __pycache__/
 test-results/
 playwright-report/
 data-validation/outputs/
+~$*
+~WRL*.tmp
+*accessKeys*.csv

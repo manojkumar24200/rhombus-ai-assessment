@@ -1,0 +1,15 @@
+AI Builder reply to the initial 8-rule cleaning prompt (verbatim excerpt)
+
+The source file baseline.csv contained 132 rows. After applying all 8 cleaning rules, 44 rows remain in baseline_cleaned.csv with the same 9 columns in the original order.
+
+Step | Action                                                   | Rows in | Rows out | Dropped
+Fetch| Raw data from source                                     | 132     | 132      | -
+2    | Remove empty order_id; deduplicate by order_id           | 132     | 119      | 13
+4    | Drop rows with invalid/unparseable order_date            | 119     | 49       | 70
+5    | Drop rows where price is non-numeric or negative         | 49      | 47       | 2
+6    | Drop rows where quantity is missing or outside 1-1000    | 47      | 44       | 3
+Total|                                                          | 132     | 44       | 88
+
+"The date step was the largest source of attrition (70 rows), indicating that a large portion of the raw data carried unparseable date values."
+
+Final dataset profile: 44 rows; Country: United States 11, United Kingdom 10, India 9, Germany 8, Unknown 6; Status: shipped 19, pending 14, cancelled 11.

@@ -87,26 +87,48 @@ A test whose endpoint isn't configured in `.env` is **skipped** with a reason ra
 
 | Drift case | Change | Pipeline stopped? | Chatbot fix worked? | Severity |
 |---|---|---|---|---|
-| [schema-drop-column](observations/schema-drop-column.md) | drop `email` | _FILL_ | _FILL_ | _FILL_ |
-| [schema-rename-column](observations/schema-rename-column.md) | `price` → `unit_price` | _FILL_ | _FILL_ | _FILL_ |
-| [schema-type-change](observations/schema-type-change.md) | `quantity` int → words | _FILL_ | _FILL_ | _FILL_ |
-| [schema-add-column](observations/schema-add-column.md) | add `discount_code` | _FILL_ | _FILL_ | _FILL_ |
-| [schema-combined](observations/schema-combined.md) | all four | _FILL_ | _FILL_ | _FILL_ |
-| [semantic-price-cents](observations/semantic-price-cents.md) | dollars → cents | _FILL_ | N/A | _FILL_ |
-| [semantic-date-ddmm](observations/semantic-date-ddmm.md) | MM/DD → DD/MM | _FILL_ | N/A | _FILL_ |
+| [baseline build](observations/baseline-ai-build.md) | AI-built cleaning, schedule | n/a | Yes, after 1 follow-up | **High** |
+| [schema-rename-column](observations/schema-rename-column.md) | `price` → `unit_price` | **Yes**: failed, nothing written to GCS | **No** (2 attempts) | Medium |
+| [semantic-price-cents](observations/semantic-price-cents.md) | dollars → cents | **No**: green, wrong prices published | N/A | **High** |
+| [semantic-date-ddmm](observations/semantic-date-ddmm.md) | MM/DD → DD/MM | **No**: green, 20 dates silently swapped | N/A | **High** |
+| [schema-drop-column](observations/schema-drop-column.md) | drop `email` | not run (time) | – | – |
+| [schema-type-change](observations/schema-type-change.md) | `quantity` int → words | not run (time) | – | – |
+| [schema-add-column](observations/schema-add-column.md) | add `discount_code` | not run (time) | – | – |
+| [schema-combined](observations/schema-combined.md) | all four | not run (time) | – | – |
 
-Severity scale: **High** means wrong data reaches GCS silently. **Medium** means the run fails but the cause is unclear or the fix doesn't work. **Low** means it is handled, with a cosmetic or UX issue at most.
+Severity scale: **High** means wrong data reaches GCS silently, or the pipeline silently doesn't run. **Medium** means the run fails safely but the cause is unclear or the fix doesn't work. **Low** means it is handled, with a cosmetic or UX issue at most.
+
+I ran out of time for 4 of the 7 drift cases, so I prioritised one schema case and both semantic cases. Datasets, validator support and observation templates for the remaining four are in the repo, and each can be run with `python data-validation/run_drift.py <case>`.
 
 ### Top three findings
-1. _FILL_
-2. _FILL_
-3. _FILL_
+1. **Semantic drift is invisible to Rhombus.** With prices switched to cents, the run was green, 110 rows were written, and every price was 100× wrong. Only the external validator caught it (`median ratio 100.00`, 110/110 prices changed). There is no range or distribution check between runs.
+2. **The AI builder can silently lose data and explain it wrongly, and "chat result ≠ pipeline".** The first build dropped 60% of rows as "unparseable dates" (they were valid ISO and `Mon DD YYYY` dates), and the cleaning existed only in the chat, so the first runs published raw data. Custom nodes **regenerate their code with the LLM on every run** (`code_sha` changes between runs), and identical inputs produced different outputs (`"None"` vs `"Unknown"`).
+3. **Scheduling and failure signalling are unreliable.** A custom `*/3` cron showed **Active** with a blank "Next run" and 0 executions in more than 10 minutes, with no warning (`*/15` worked). A failed run logs both "Pipeline failed" and "Pipeline execution completed successfully" in the same second, and the error is a bare `KeyError: 'price'`, which the chatbot could not fix in two attempts.
 
 ---
 
 ## 3. Usability feedback
 
-_FILL: what was most helpful or enjoyable, what was frustrating or difficult, and concrete suggestions._
+**Helpful:**
+- Describing a cleaning job in plain English and getting a working pipeline was fast.
+- The S3 connector is well designed. It generates a least-privilege bucket policy instead of asking for access keys.
+- The **Ask Chatbot** button directly on a failed log entry is the right idea.
+- Run logs and the Executions view are easy to find.
+
+**Frustrating:**
+- Too much happens invisibly. The AI cleaned data "in the chat" but not in the pipeline, and its summary confidently explained a 60% data loss with a wrong reason.
+- The Custom nodes are LLM-generated code that is regenerated on every execution, which makes a *scheduled* ETL job non-deterministic by design.
+- The S3 folder field accepted `s3://bucket/input` without validation, generated a broken policy, then reported "folder is empty" rather than "access denied".
+- The GCS connector only accepts long-lived JSON keys, which Google now blocks by default for new organisations.
+- A custom cron could be saved as Active without ever running.
+
+**Suggestions:**
+1. Freeze generated code per pipeline version and only regenerate on explicit edit.
+2. Show the per-step row counts **in the pipeline UI**, with a warning when a step drops more than X% of rows.
+3. Add schema and statistics expectations between runs (column set, types, row count, value ranges) that can warn or fail the run.
+4. Make errors name the missing or renamed column and suggest the mapping.
+5. Validate cron expressions and always show "Next run".
+6. Offer keyless GCS auth (Workload Identity Federation) and a fixed output filename option.
 
 ---
 

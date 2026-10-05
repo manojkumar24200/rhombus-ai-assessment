@@ -1,0 +1,107 @@
+{
+  "case": "semantic-date-ddmm",
+  "input": "datasets/semantic_date_ddmm.csv",
+  "output": "gs://manoj-rhombus-dest/RhombusAI_output_1791202431847.csv",
+  "input_rows": 132,
+  "output_rows": 110,
+  "expected_rows": 87,
+  "output_hash": "881e899aca2ec62f",
+  "checks": [
+    {
+      "name": "schema.columns",
+      "status": "PASS",
+      "detail": "9 expected columns, expected order"
+    },
+    {
+      "name": "schema.price_numeric",
+      "status": "PASS",
+      "detail": "0 non-numeric price values"
+    },
+    {
+      "name": "schema.quantity_integer",
+      "status": "PASS",
+      "detail": "0 non-integer quantity values"
+    },
+    {
+      "name": "schema.order_date_iso",
+      "status": "PASS",
+      "detail": "0 dates not YYYY-MM-DD"
+    },
+    {
+      "name": "rows.match_reference",
+      "status": "FAIL",
+      "detail": "input=132 output=110 expected_by_rules=87 (diff +23)"
+    },
+    {
+      "name": "clean.no_empty_order_id",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.no_duplicate_order_id",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.no_exact_duplicate_rows",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.name_title_case",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.country_canonical",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.status_canonical",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.email_valid_or_empty",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.price_non_negative",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "clean.quantity_in_range",
+      "status": "PASS",
+      "detail": "0 violating rows"
+    },
+    {
+      "name": "semantic.price_magnitude",
+      "status": "PASS",
+      "detail": "median price 34.95; 0% of prices outside (1.0, 1000.0)"
+    },
+    {
+      "name": "semantic.date_window",
+      "status": "FAIL",
+      "detail": "5 dates outside 2024-01-01..2024-09-30"
+    },
+    {
+      "name": "semantic.price_vs_reference",
+      "status": "PASS",
+      "detail": "0/110 prices differ from baseline; median ratio 1.00"
+    },
+    {
+      "name": "semantic.date_vs_reference",
+      "status": "FAIL",
+      "detail": "20/110 dates differ from baseline; e.g. [{'order_id': 'ORD-1073', 'order_date': '2024-10-08', 'order_date_ref': '2024-08-10'}, {'order_id': 'ORD-1097', 'order_date': '2024-10-06', 'order_date_ref': '2024-06-10'}, {'order_id': 'ORD-1101', 'order_date': '2024-01-03', 'order_date_ref': '2024-03-01'}]"
+    },
+    {
+      "name": "determinism",
+      "status": "SKIP",
+      "detail": "hash 881e899aca2ec62f; no repeat runs supplied"
+    }
+  ],
+  "verdict": "FAIL"
+}

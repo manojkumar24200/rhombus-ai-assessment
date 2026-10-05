@@ -1,0 +1,13 @@
+{
+  "kind": "pipeline_summary",
+  "status": "error",
+  "failure": {
+    "message": "Pipeline failed at orders_fields_cleaned: LLM execution failed (code_sha=5e06f8bf1c19): 'price'\n--- Generated code ---\nimport pandas as pd\nimport numpy as np\ndef _safe_to_timedelta_wrapper(arg, *args, **kwargs):\n    try:\n        arg_series = pd.Series(arg)\n    except Exception:\n        arg_series = a…",
+    "reason": "LLM execution failed (code_sha=5e06f8bf1c19): 'price'\n--- Generated code ---\nimport pandas as pd\nimport numpy as np\ndef _safe_to_timedelta_wrapper(arg, *args, **kwargs):\n    try:\n        arg_series = pd.Series(arg)\n    except Exception:\n        arg_series = a…",
+    "nodeId": "llm_node_1",
+    "nodeLabel": "orders_fields_cleaned",
+    "nodeRef": "llm_895b2882c046cc3f2bcb5e8dac13133c"
+  },
+  "nodeId": "llm_node_1",
+  "nodeName": "orders_fields_cleaned"
+}

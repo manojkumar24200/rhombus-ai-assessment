@@ -1,0 +1,26 @@
+[
+  {
+    "case": "semantic-price-cents",
+    "output": "RhombusAI_output_1791202361058.csv",
+    "verdict": "FAIL",
+    "rows": 110,
+    "seconds_after_upload": 96,
+    "uploaded_at": "2026-10-05T12:11:05.006561+00:00"
+  },
+  {
+    "case": "semantic-date-ddmm",
+    "output": "RhombusAI_output_1791202431847.csv",
+    "verdict": "FAIL",
+    "rows": 110,
+    "seconds_after_upload": 40,
+    "uploaded_at": "2026-10-05T12:13:12.538216+00:00"
+  },
+  {
+    "case": "semantic-date-ddmm",
+    "output": "RhombusAI_output_1791202431847.csv",
+    "verdict": "FAIL",
+    "rows": 110,
+    "seconds_after_upload": 21,
+    "uploaded_at": "2026-10-05T12:13:31.289160+00:00"
+  }
+]

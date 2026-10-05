@@ -1,0 +1,107 @@
+{
+  "case": "baseline-first-run",
+  "input": "datasets/baseline.csv",
+  "output": "gs://manoj-rhombus-dest/RhombusAI_output_1791200320685.csv",
+  "input_rows": 132,
+  "output_rows": 132,
+  "expected_rows": 110,
+  "output_hash": "573c5cc6474f57a6",
+  "checks": [
+    {
+      "name": "schema.columns",
+      "status": "PASS",
+      "detail": "9 expected columns, expected order"
+    },
+    {
+      "name": "schema.price_numeric",
+      "status": "FAIL",
+      "detail": "12 non-numeric price values e.g. ['$7.50', '$79.90', '$7.50']"
+    },
+    {
+      "name": "schema.quantity_integer",
+      "status": "FAIL",
+      "detail": "4 non-integer quantity values e.g. ['', '', '']"
+    },
+    {
+      "name": "schema.order_date_iso",
+      "status": "FAIL",
+      "detail": "3 dates not YYYY-MM-DD e.g. ['', '', '']"
+    },
+    {
+      "name": "rows.match_reference",
+      "status": "FAIL",
+      "detail": "input=132 output=132 expected_by_rules=110 (diff +22)"
+    },
+    {
+      "name": "clean.no_empty_order_id",
+      "status": "FAIL",
+      "detail": "1 violating rows e.g. ['']"
+    },
+    {
+      "name": "clean.no_duplicate_order_id",
+      "status": "FAIL",
+      "detail": "23 violating rows e.g. ['ORD-1075', 'ORD-1014', 'ORD-1087']"
+    },
+    {
+      "name": "clean.no_exact_duplicate_rows",
+      "status": "FAIL",
+      "detail": "16 violating rows e.g. ['ORD-1075', 'ORD-1014', 'ORD-1087']"
+    },
+    {
+      "name": "clean.name_title_case",
+      "status": "FAIL",
+      "detail": "13 violating rows e.g. ['  RAVI MULLER ', '  PRIYA KIM ', '  TARIQ KHAN ']"
+    },
+    {
+      "name": "clean.country_canonical",
+      "status": "FAIL",
+      "detail": "113 violating rows e.g. ['india', ' US ', 'IND']"
+    },
+    {
+      "name": "clean.status_canonical",
+      "status": "FAIL",
+      "detail": "98 violating rows e.g. ['PENDING', ' shipped', 'Pending']"
+    },
+    {
+      "name": "clean.email_valid_or_empty",
+      "status": "FAIL",
+      "detail": "2 violating rows e.g. ['not-an-email', 'bob@@example']"
+    },
+    {
+      "name": "clean.price_non_negative",
+      "status": "FAIL",
+      "detail": "1 violating rows e.g. ['-19.99']"
+    },
+    {
+      "name": "clean.quantity_in_range",
+      "status": "FAIL",
+      "detail": "2 violating rows e.g. ['1000000.0', '-3.0']"
+    },
+    {
+      "name": "semantic.price_magnitude",
+      "status": "PASS",
+      "detail": "median price 34.95; 1% of prices outside (1.0, 1000.0)"
+    },
+    {
+      "name": "semantic.date_window",
+      "status": "PASS",
+      "detail": "0 dates outside 2024-01-01..2024-09-30"
+    },
+    {
+      "name": "semantic.price_vs_reference",
+      "status": "PASS",
+      "detail": "0/120 prices differ from baseline; median ratio 1.00"
+    },
+    {
+      "name": "semantic.date_vs_reference",
+      "status": "PASS",
+      "detail": "0/120 dates differ from baseline; e.g. []"
+    },
+    {
+      "name": "determinism",
+      "status": "PASS",
+      "detail": "hash 573c5cc6474f57a6; 1 repeat run(s); differing: none"
+    }
+  ],
+  "verdict": "FAIL"
+}
