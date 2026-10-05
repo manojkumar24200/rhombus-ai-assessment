@@ -1,0 +1,13 @@
+# secrets - never commit
+.env
+.auth/
+Recovery code.txt
+*.pem
+*service-account*.json
+gcp-key*.json
+
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+data-validation/outputs/

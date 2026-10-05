@@ -1,0 +1,10 @@
+Clean this orders data:
+1. Trim whitespace in all text columns; customer_name in Title Case; email in lowercase.
+2. Remove rows with an empty order_id, then remove duplicate rows by order_id (keep the first).
+3. Standardise country to one of: United States, India, United Kingdom, Germany (USA/US/U.S. -> United States; IN/IND -> India; UK/England -> United Kingdom; DE -> Germany). Empty country -> "Unknown".
+4. Convert order_date to YYYY-MM-DD. Input dates are month-first (MM/DD/YYYY). Drop rows whose date is invalid.
+5. Remove "$" from price and make it a number; drop rows where price is not a number or is negative.
+6. quantity must be an integer between 1 and 1000; drop rows that are missing or outside that range.
+7. Set invalid emails (no single @ and domain) to empty.
+8. Lowercase status; map "canceled" to "cancelled"; any value not shipped/pending/cancelled -> "unknown".
+Keep the same 9 columns in the same order.

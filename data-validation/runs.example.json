@@ -1,0 +1,12 @@
+[
+  {"case": "baseline",              "input": "datasets/baseline.csv",               "output": "gs://YOUR_GCS_BUCKET/output/baseline.csv",
+   "reference": "datasets/baseline.csv",
+   "compare": ["gs://YOUR_GCS_BUCKET/output/baseline_run2.csv", "gs://YOUR_GCS_BUCKET/output/baseline_run3.csv"]},
+  {"case": "schema-drop-column",    "input": "datasets/schema_drop_column.csv",     "output": "gs://YOUR_GCS_BUCKET/output/schema_drop_column.csv",   "reference": "datasets/baseline.csv"},
+  {"case": "schema-rename-column",  "input": "datasets/schema_rename_column.csv",   "output": "gs://YOUR_GCS_BUCKET/output/schema_rename_column.csv", "reference": "datasets/baseline.csv"},
+  {"case": "schema-type-change",    "input": "datasets/schema_type_change.csv",     "output": "gs://YOUR_GCS_BUCKET/output/schema_type_change.csv",   "reference": "datasets/baseline.csv"},
+  {"case": "schema-add-column",     "input": "datasets/schema_add_column.csv",      "output": "gs://YOUR_GCS_BUCKET/output/schema_add_column.csv",    "reference": "datasets/baseline.csv"},
+  {"case": "schema-combined",       "input": "datasets/schema_combined.csv",        "output": "gs://YOUR_GCS_BUCKET/output/schema_combined.csv",      "reference": "datasets/baseline.csv"},
+  {"case": "semantic-price-cents",  "input": "datasets/semantic_price_cents.csv",   "output": "gs://YOUR_GCS_BUCKET/output/semantic_price_cents.csv", "reference": "datasets/baseline.csv"},
+  {"case": "semantic-date-ddmm",    "input": "datasets/semantic_date_ddmm.csv",     "output": "gs://YOUR_GCS_BUCKET/output/semantic_date_ddmm.csv",   "reference": "datasets/baseline.csv"}
+]

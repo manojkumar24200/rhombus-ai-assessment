@@ -1,0 +1,133 @@
+order_id,customer_name,country,order_date,product,quantity,unit_price,status,discount_code
+ORD-1029,  RAVI MULLER ,india,2024-01-30,Monitor,five,189.00,PENDING,NONE
+ORD-1083,Ravi Garcia, US ,05/29/2024,Laptop Stand,two,34.95, shipped,
+ORD-1075,Carla Kim,IND,06/21/2024,Desk Lamp,one,24.99,Pending,SPRING10
+ORD-1056,Noah Patel,DE,May 07 2024,Monitor,one,189.00, shipped,NONE
+ORD-1073,Deepak Brown,Germany,08/10/2024,Webcam,two,59.00,CANCELLED,SPRING10
+ORD-1065,Sofia Smith,,2024-04-03,Mouse,one,19.99,SHIPPED,VIP20
+ORD-1026,Farid Kim,IND,Feb 20 2024,Desk Lamp,one,24.99,shipped,
+ORD-1103,Elena Brown,IN,Jul 31 2024,USB Cable,,$7.50,SHIPPED,SPRING10
+ORD-1014,Alice Jones,u.k.,2024-08-10,Laptop Stand,two,34.95, shipped,
+ORD-1041,Bob Kim,USA,May 07 2024,Webcam,one,59.00,Pending,
+ORD-1011,Isla Garcia,England,07/23/2024,USB Cable,three,7.50,cancelled,
+ORD-1085,Isla Muller,U.S.,Feb 07 2024,Mouse,five,19.99,PENDING,SPRING10
+ORD-1072,Liam Rossi,u.k.,Jan 07 2024,Headset,four,$79.90, shipped,VIP20
+ORD-1097,  PRIYA KIM ,United States,06/10/2024,Headset,three,79.90,Pending,NONE
+ORD-1087,  TARIQ KHAN ,germany,2024-06-01,USB Cable,five,$7.50,???,NONE
+ORD-1045,Grace Brown,u.k.,2024-06-28,Webcam,five,59.00, shipped,VIP20
+ORD-1024,Noah Nguyen,DE,2024-01-28,Headset,one,79.90,pending,VIP20
+ORD-1100,Priya Jones,india,Jun 08 2024,Keyboard,five,49.99,cancelled,
+ORD-1044,Hiro Patel,UK,04/24/2024,Desk Lamp,,24.99,PENDING,VIP20
+ORD-1040,Deepak Jones, US ,2024-03-16,Monitor,four,189.00,pending,VIP20
+ORD-1101,Ravi Brown,,03/01/2024,Mouse,two,19.99, shipped,SPRING10
+ORD-1033,Grace Nguyen,UK,Jun 02 2024,USB Cable,four,7.50,Pending,
+ORD-1052,Noah Khan,germany,04/19/2024,Webcam,five,59.00,Pending,
+ORD-1087,tariq khan,germany,Jun 01 2024,USB Cable,five,$7.50,???,
+ORD-1037,Deepak Rossi,UK,06/24/2024,Monitor,two,189.00,PENDING,VIP20
+ORD-1019,  TARIQ BROWN ,IN,07/23/2024,USB Cable,three,7.50,Canceled,VIP20
+ORD-1042,Ravi Brown,india,Jul 30 2024,Monitor,one,189.00,Shipped,
+ORD-1104,Alice Kim,germany,2024-09-04,Laptop Stand,three,34.95,SHIPPED,VIP20
+ORD-1014,Alice Jones,u.k.,2024-08-10,Laptop Stand,two,34.95, shipped,
+ORD-1118,Tariq Muller,IN,2024-04-22,Laptop Stand,two,34.95,CANCELLED,VIP20
+ORD-1099,Tariq Muller,usa,03/08/2024,Desk Lamp,three,24.99, shipped,NONE
+ORD-1093,Jamal Brown,Germany,2024-01-21,Laptop Stand,four,$34.95,PENDING,
+ORD-1049,Carla Nguyen,usa,09/16/2024,Webcam,three,59.00,CANCELLED,NONE
+ORD-1034,Carla Smith, US ,04/19/2024,Desk Lamp,five,abc,SHIPPED,NONE
+ORD-1066,Mei Nguyen,germany,07/13/2024,USB Cable,three,7.50,Pending,SPRING10
+ORD-1082,Deepak Patel,india,2024-06-03,Laptop Stand,one,34.95,PENDING,SPRING10
+ORD-1004,Noah Nguyen,IN,2024-02-22,Laptop Stand,one,34.95, shipped,SPRING10
+ORD-1060,  KAVYA ROSSI ,india,2024-07-15,Mouse,two,19.99,Shipped,VIP20
+ORD-1062,Noah Brown,Germany,2024-06-29,Keyboard,three,49.99,Pending,SPRING10
+ORD-1109,Kavya Khan, US ,Jul 13 2024,Headset,three,$79.90,PENDING,
+ORD-1021,Sofia Patel,United States,04/27/2024,Keyboard,one,49.99,cancelled,
+ORD-1038,Isla Rossi,United Kingdom,08/04/2024,Desk Lamp,three,24.99,shipped,NONE
+ORD-1077,Isla Rossi,india,Jul 27 2024,Keyboard,four,49.99,Shipped,
+ORD-1023,Sofia Khan,IND,04/07/2024,Desk Lamp,one,24.99,pending,VIP20
+ORD-1088,Jamal Khan,USA,05/15/2024,Keyboard,one,49.99,Shipped,VIP20
+ORD-1095,Farid Muller,England,2024-09-08,Desk Lamp,one,24.99, shipped,NONE
+ORD-1002,Sofia Brown,USA,04/29/2024,Keyboard,five,-19.99,shipped,NONE
+ORD-1071,Mei Patel,IN,2024-03-02,Mouse,five,19.99,shipped,SPRING10
+ORD-1081,Grace Nguyen,india,09/04/2024,Mouse,three,19.99,SHIPPED,SPRING10
+ORD-1075,Carla Kim,IND,06/21/2024,Desk Lamp,one,24.99,Pending,NONE
+ORD-1115,Ravi Garcia,DE,06/02/2024,Mouse,four,19.99,PENDING,NONE
+ORD-1035,Elena Nguyen,,2024-03-21,Mouse,four,19.99,PENDING,VIP20
+ORD-1067,Isla Jones, US ,2024-01-27,Desk Lamp,three,24.99,cancelled,
+ORD-1061,Carla Brown,England,07/31/2024,Headset,one,79.90,cancelled,VIP20
+ORD-1055,Sofia Patel,Germany,Mar 16 2024,Headset,one,79.90,pending,SPRING10
+ORD-1113,Sofia Garcia,,05/03/2024,Monitor,four,189.00,Shipped,
+ORD-1001,Deepak Smith,india,Feb 22 2024,Laptop Stand,five,34.95,shipped,SPRING10
+ORD-1120,Elena Jones,England,2024-03-30,Laptop Stand,two,34.95,cancelled,
+ORD-1058,Olga Garcia,Germany,May 21 2024,Desk Lamp,five,24.99,Pending,VIP20
+ORD-1080,Ravi Nguyen,germany,May 08 2024,Webcam,two,59.00,pending,VIP20
+ORD-1010,  ISLA JONES ,England,2024-07-21,USB Cable,four,7.50,Shipped,SPRING10
+ORD-1112,Bob Kim,UK,05/05/2024,Webcam,,59.00,Pending,NONE
+ORD-1022,Kavya Jones,,04/19/2024,USB Cable,five,7.50,cancelled,
+ORD-1030,Ravi Smith, US ,2024-09-01,Webcam,five,59.00,Shipped,VIP20
+ORD-1074,Quinn Kim,DE,05/17/2024,Desk Lamp,three,24.99,pending,VIP20
+ORD-1068,Carla Smith,,03/19/2024,Keyboard,two,49.99,Shipped,
+ORD-1009,Mei Kim,UK,2024-01-17,USB Cable,three,7.50, shipped,SPRING10
+ORD-1027,Carla Patel,germany,Apr 19 2024,Monitor,four,189.00,pending,
+ORD-1030,ravi smith, US ,Sep 01 2024,Webcam,five,59.00,Shipped,NONE
+ORD-1032,Sofia Patel, US ,2024-09-24,Keyboard,three,49.99,Pending,
+ORD-1043,Kavya Brown,United Kingdom,07/14/2024,USB Cable,one,7.50, shipped,NONE
+ORD-1007,Carla Patel,germany,2024-07-05,Mouse,two,19.99,Pending,
+ORD-1003,Ravi Patel,IN,2024-01-04,Headset,two,79.90,PENDING,SPRING10
+ORD-1107,Elena Muller,,2024-02-21,Keyboard,four,49.99,cancelled,SPRING10
+ORD-1012,Elena Rossi,United States,03/19/2024,Desk Lamp,two,$24.99, shipped,
+ORD-1111,  DEEPAK JONES ,IN,2024-01-15,Desk Lamp,one,24.99,Canceled,VIP20
+ORD-1016,Elena Nguyen,usa,09/07/2024,Monitor,1000000,189.00,cancelled,
+ORD-1025,Mei Nguyen,india,2024-08-17,Mouse,two,19.99, shipped,VIP20
+ORD-1102,Jamal Rossi,germany,May 04 2024,Laptop Stand,four,34.95,PENDING,
+ORD-1051,Mei Garcia,Germany,06/04/2024,Laptop Stand,three,$34.95,cancelled,
+ORD-1008,Liam Patel,USA,May 05 2024,Laptop Stand,two,34.95,Canceled,NONE
+ORD-1046,Ravi Nguyen,USA,05/15/2024,Keyboard,one,49.99,pending,VIP20
+ORD-1106,Hiro Brown,England,Jul 14 2024,Keyboard,four,49.99,CANCELLED,SPRING10
+ORD-1091,Hiro Kim,DE,2024-04-25,USB Cable,two,7.50,SHIPPED,SPRING10
+ORD-1098,Deepak Brown,Germany,2024-04-06,Keyboard,five,49.99,Pending,
+ORD-1047,Tariq Brown,,2024-07-16,Webcam,five,$59.00,pending,VIP20
+ORD-1116,Isla Muller,IND,02/24/2024,Laptop Stand,two,34.95,Pending,NONE
+ORD-1092,Elena Jones,IN,Aug 12 2024,Keyboard,one,49.99,Pending,VIP20
+ORD-1061,carla brown,England,07/31/2024,Headset,one,79.90,cancelled,
+ORD-1028,Farid Brown,germany,May 26 2024,Keyboard,four,49.99,PENDING,VIP20
+ORD-1110,Priya Rossi,usa,04/26/2024,Keyboard,one,49.99, shipped,NONE
+ORD-1089,Hiro Garcia,IND,Aug 18 2024,Mouse,five,19.99, shipped,
+ORD-1087,  TARIQ KHAN ,germany,06/01/2024,USB Cable,five,$7.50,???,VIP20
+ORD-1036,Jamal Khan,United Kingdom,Mar 09 2024,Keyboard,three,49.99,cancelled,NONE
+ORD-1082,Deepak Patel,india,06/03/2024,Laptop Stand,one,34.95,PENDING,VIP20
+ORD-1079,Jamal Khan,DE,2024-06-25,Webcam,four,59.00,CANCELLED,NONE
+ORD-1063,Noah Rossi,germany,08/11/2024,USB Cable,four,7.50,shipped,NONE
+ORD-1117,Sofia Nguyen,,05/20/2024,Laptop Stand,one,34.95,shipped,VIP20
+ORD-1048,Isla Smith, US ,not a date,Headset,three,79.90,Canceled,NONE
+ORD-1105,Ravi Rossi,Germany,05/02/2024,Headset,five,79.90,Pending,
+ORD-1020,Quinn Muller,India,2024-06-22,Mouse,one,19.99,Shipped,VIP20
+ORD-1094,Kavya Khan,USA,01/11/2024,Laptop Stand,three,34.95,shipped,VIP20
+ORD-1108,Quinn Muller,india,02/08/2024,Keyboard,four,49.99,Pending,SPRING10
+ORD-1076,Kavya Garcia,IN,06/23/2024,Desk Lamp,three,24.99,PENDING,SPRING10
+ORD-1054,Elena Smith,India,08/21/2024,Keyboard,four,49.99,PENDING,SPRING10
+ORD-1070,Tariq Jones,,06/08/2024,Monitor,five,189.00, shipped,
+ORD-1090,Jamal Smith,u.k.,08/20/2024,USB Cable,one,7.50,CANCELLED,NONE
+,Liam Brown,United Kingdom,Mar 23 2024,Webcam,,59.00,Canceled,NONE
+ORD-1086,Bob Garcia,UK,Mar 01 2024,Monitor,five,189.00, shipped,VIP20
+ORD-1048,Isla Smith, US ,not a date,Headset,three,79.90,Canceled,NONE
+ORD-1059,Hiro Kim,usa,2024-13-45,Desk Lamp,three,24.99,Canceled,
+ORD-1050,Noah Nguyen,UK,04/08/2024,Headset,four,79.90,CANCELLED,VIP20
+ORD-1049,Carla Nguyen,usa,2024-09-16,Webcam,three,59.00,CANCELLED,SPRING10
+ORD-1069,Priya Jones,germany,Jul 07 2024,USB Cable,-3,7.50,CANCELLED,VIP20
+ORD-1114,Hiro Muller,DE,2024-01-05,Laptop Stand,four,34.95,Pending,VIP20
+ORD-1031,Bob Rossi,India,2024-04-30,Mouse,four,19.99,shipped,SPRING10
+ORD-1013,Tariq Jones,germany,2024-09-27,Headset,three,79.90,CANCELLED,
+ORD-1106,Hiro Brown,England,2024-07-14,Keyboard,four,49.99,CANCELLED,SPRING10
+ORD-1064,Mei Nguyen,india,2024-01-14,Headset,four,79.90,PENDING,NONE
+ORD-1039,Alice Nguyen,England,08/06/2024,Monitor,five,189.00,shipped,
+ORD-1005,Deepak Nguyen,England,03/04/2024,Webcam,four,59.00,shipped,VIP20
+ORD-1034,Carla Smith, US ,04/19/2024,Desk Lamp,five,abc,SHIPPED,NONE
+ORD-1006,Ravi Kim,India,01/24/2024,Webcam,two,59.00,Canceled,SPRING10
+ORD-1018,Carla Rossi,IND,Mar 25 2024,Monitor,three,189.00,CANCELLED,NONE
+ORD-1015,  ALICE KIM ,usa,Sep 16 2024,Monitor,five,189.00,cancelled,VIP20
+ORD-1053,Farid Jones,UK,06/07/2024,Laptop Stand,two,34.95,Shipped,SPRING10
+ORD-1004,noah nguyen,IN,02/22/2024,Laptop Stand,one,34.95, shipped,SPRING10
+ORD-1078,Priya Muller,usa,2024-04-23,Desk Lamp,four,24.99,Shipped,VIP20
+ORD-1119,Isla Garcia,U.S.,2024-01-18,Mouse,five,19.99,Pending,
+ORD-1017,Liam Kim, US ,02/10/2024,USB Cable,one,7.50, shipped,VIP20
+ORD-1057,Elena Muller,DE,2024-09-15,Webcam,four,59.00,CANCELLED,VIP20
+ORD-1084,Deepak Smith,germany,Jun 23 2024,Laptop Stand,two,34.95,pending,NONE

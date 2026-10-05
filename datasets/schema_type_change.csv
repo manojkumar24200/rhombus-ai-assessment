@@ -1,0 +1,133 @@
+order_id,customer_name,email,country,order_date,product,quantity,price,status
+ORD-1029,  RAVI MULLER ,ravi.muller29@example.com,india,2024-01-30,Monitor,five,189.00,PENDING
+ORD-1083,Ravi Garcia,ravi.garcia83@example.com, US ,05/29/2024,Laptop Stand,two,34.95, shipped
+ORD-1075,Carla Kim,carla.kim75@example.com,IND,06/21/2024,Desk Lamp,one,24.99,Pending
+ORD-1056,Noah Patel,noah.patel56@example.com,DE,May 07 2024,Monitor,one,189.00, shipped
+ORD-1073,Deepak Brown,deepak.brown73@example.com,Germany,08/10/2024,Webcam,two,59.00,CANCELLED
+ORD-1065,Sofia Smith,sofia.smith65@example.com,,2024-04-03,Mouse,one,19.99,SHIPPED
+ORD-1026,Farid Kim,farid.kim26@example.com,IND,Feb 20 2024,Desk Lamp,one,24.99,shipped
+ORD-1103,Elena Brown,elena.brown103@example.com,IN,Jul 31 2024,USB Cable,,$7.50,SHIPPED
+ORD-1014,Alice Jones,alice.jones14@example.com,u.k.,2024-08-10,Laptop Stand,two,34.95, shipped
+ORD-1041,Bob Kim,bob.kim41@example.com,USA,May 07 2024,Webcam,one,59.00,Pending
+ORD-1011,Isla Garcia,isla.garcia11@example.com,England,07/23/2024,USB Cable,three,7.50,cancelled
+ORD-1085,Isla Muller,isla.muller85@example.com,U.S.,Feb 07 2024,Mouse,five,19.99,PENDING
+ORD-1072,Liam Rossi,liam.rossi72@example.com,u.k.,Jan 07 2024,Headset,four,$79.90, shipped
+ORD-1097,  PRIYA KIM ,priya.kim97@example.com,United States,06/10/2024,Headset,three,79.90,Pending
+ORD-1087,  TARIQ KHAN ,tariq.khan87@example.com,germany,2024-06-01,USB Cable,five,$7.50,???
+ORD-1045,Grace Brown,grace.brown45@example.com,u.k.,2024-06-28,Webcam,five,59.00, shipped
+ORD-1024,Noah Nguyen,noah.nguyen24@example.com,DE,2024-01-28,Headset,one,79.90,pending
+ORD-1100,Priya Jones,priya.jones100@example.com,india,Jun 08 2024,Keyboard,five,49.99,cancelled
+ORD-1044,Hiro Patel,hiro.patel44@example.com,UK,04/24/2024,Desk Lamp,,24.99,PENDING
+ORD-1040,Deepak Jones,deepak.jones40@example.com, US ,2024-03-16,Monitor,four,189.00,pending
+ORD-1101,Ravi Brown,ravi.brown101@example.com,,03/01/2024,Mouse,two,19.99, shipped
+ORD-1033,Grace Nguyen,,UK,Jun 02 2024,USB Cable,four,7.50,Pending
+ORD-1052,Noah Khan,noah.khan52@example.com,germany,04/19/2024,Webcam,five,59.00,Pending
+ORD-1087,tariq khan,tariq.khan87@example.com,germany,Jun 01 2024,USB Cable,five,$7.50,???
+ORD-1037,Deepak Rossi,deepak.rossi37@example.com,UK,06/24/2024,Monitor,two,189.00,PENDING
+ORD-1019,  TARIQ BROWN ,tariq.brown19@example.com,IN,07/23/2024,USB Cable,three,7.50,Canceled
+ORD-1042,Ravi Brown,ravi.brown42@example.com,india,Jul 30 2024,Monitor,one,189.00,Shipped
+ORD-1104,Alice Kim,,germany,2024-09-04,Laptop Stand,three,34.95,SHIPPED
+ORD-1014,Alice Jones,alice.jones14@example.com,u.k.,2024-08-10,Laptop Stand,two,34.95, shipped
+ORD-1118,Tariq Muller,tariq.muller118@example.com,IN,2024-04-22,Laptop Stand,two,34.95,CANCELLED
+ORD-1099,Tariq Muller,tariq.muller99@example.com,usa,03/08/2024,Desk Lamp,three,24.99, shipped
+ORD-1093,Jamal Brown,jamal.brown93@example.com,Germany,2024-01-21,Laptop Stand,four,$34.95,PENDING
+ORD-1049,Carla Nguyen,carla.nguyen49@example.com,usa,09/16/2024,Webcam,three,59.00,CANCELLED
+ORD-1034,Carla Smith,carla.smith34@example.com, US ,04/19/2024,Desk Lamp,five,abc,SHIPPED
+ORD-1066,Mei Nguyen,mei.nguyen66@example.com,germany,07/13/2024,USB Cable,three,7.50,Pending
+ORD-1082,Deepak Patel,deepak.patel82@example.com,india,2024-06-03,Laptop Stand,one,34.95,PENDING
+ORD-1004,Noah Nguyen,noah.nguyen4@example.com,IN,2024-02-22,Laptop Stand,one,34.95, shipped
+ORD-1060,  KAVYA ROSSI ,kavya.rossi60@example.com,india,2024-07-15,Mouse,two,19.99,Shipped
+ORD-1062,Noah Brown,,Germany,2024-06-29,Keyboard,three,49.99,Pending
+ORD-1109,Kavya Khan,kavya.khan109@example.com, US ,Jul 13 2024,Headset,three,$79.90,PENDING
+ORD-1021,Sofia Patel,sofia.patel21@example.com,United States,04/27/2024,Keyboard,one,49.99,cancelled
+ORD-1038,Isla Rossi,,United Kingdom,08/04/2024,Desk Lamp,three,24.99,shipped
+ORD-1077,Isla Rossi,isla.rossi77@example.com,india,Jul 27 2024,Keyboard,four,49.99,Shipped
+ORD-1023,Sofia Khan,sofia.khan23@example.com,IND,04/07/2024,Desk Lamp,one,24.99,pending
+ORD-1088,Jamal Khan,jamal.khan88@example.com,USA,05/15/2024,Keyboard,one,49.99,Shipped
+ORD-1095,Farid Muller,farid.muller95@example.com,England,2024-09-08,Desk Lamp,one,24.99, shipped
+ORD-1002,Sofia Brown,sofia.brown2@example.com,USA,04/29/2024,Keyboard,five,-19.99,shipped
+ORD-1071,Mei Patel,mei.patel71@example.com,IN,2024-03-02,Mouse,five,19.99,shipped
+ORD-1081,Grace Nguyen,grace.nguyen81@example.com,india,09/04/2024,Mouse,three,19.99,SHIPPED
+ORD-1075,Carla Kim,carla.kim75@example.com,IND,06/21/2024,Desk Lamp,one,24.99,Pending
+ORD-1115,Ravi Garcia,ravi.garcia115@example.com,DE,06/02/2024,Mouse,four,19.99,PENDING
+ORD-1035,Elena Nguyen,elena.nguyen35@example.com,,2024-03-21,Mouse,four,19.99,PENDING
+ORD-1067,Isla Jones,isla.jones67@example.com, US ,2024-01-27,Desk Lamp,three,24.99,cancelled
+ORD-1061,Carla Brown,carla.brown61@example.com,England,07/31/2024,Headset,one,79.90,cancelled
+ORD-1055,Sofia Patel,sofia.patel55@example.com,Germany,Mar 16 2024,Headset,one,79.90,pending
+ORD-1113,Sofia Garcia,sofia.garcia113@example.com,,05/03/2024,Monitor,four,189.00,Shipped
+ORD-1001,Deepak Smith,deepak.smith1@example.com,india,Feb 22 2024,Laptop Stand,five,34.95,shipped
+ORD-1120,Elena Jones,elena.jones120@example.com,England,2024-03-30,Laptop Stand,two,34.95,cancelled
+ORD-1058,Olga Garcia,olga.garcia58@example.com,Germany,May 21 2024,Desk Lamp,five,24.99,Pending
+ORD-1080,Ravi Nguyen,ravi.nguyen80@example.com,germany,May 08 2024,Webcam,two,59.00,pending
+ORD-1010,  ISLA JONES ,isla.jones10@example.com,England,2024-07-21,USB Cable,four,7.50,Shipped
+ORD-1112,Bob Kim,bob.kim112@example.com,UK,05/05/2024,Webcam,,59.00,Pending
+ORD-1022,Kavya Jones,kavya.jones22@example.com,,04/19/2024,USB Cable,five,7.50,cancelled
+ORD-1030,Ravi Smith,ravi.smith30@example.com, US ,2024-09-01,Webcam,five,59.00,Shipped
+ORD-1074,Quinn Kim,quinn.kim74@example.com,DE,05/17/2024,Desk Lamp,three,24.99,pending
+ORD-1068,Carla Smith,carla.smith68@example.com,,03/19/2024,Keyboard,two,49.99,Shipped
+ORD-1009,Mei Kim,mei.kim9@example.com,UK,2024-01-17,USB Cable,three,7.50, shipped
+ORD-1027,Carla Patel,carla.patel27@example.com,germany,Apr 19 2024,Monitor,four,189.00,pending
+ORD-1030,ravi smith,ravi.smith30@example.com, US ,Sep 01 2024,Webcam,five,59.00,Shipped
+ORD-1032,Sofia Patel,sofia.patel32@example.com, US ,2024-09-24,Keyboard,three,49.99,Pending
+ORD-1043,Kavya Brown,kavya.brown43@example.com,United Kingdom,07/14/2024,USB Cable,one,7.50, shipped
+ORD-1007,Carla Patel,carla.patel7@example.com,germany,2024-07-05,Mouse,two,19.99,Pending
+ORD-1003,Ravi Patel,ravi.patel3@example.com,IN,2024-01-04,Headset,two,79.90,PENDING
+ORD-1107,Elena Muller,elena.muller107@example.com,,2024-02-21,Keyboard,four,49.99,cancelled
+ORD-1012,Elena Rossi,elena.rossi12@example.com,United States,03/19/2024,Desk Lamp,two,$24.99, shipped
+ORD-1111,  DEEPAK JONES ,deepak.jones111@example.com,IN,2024-01-15,Desk Lamp,one,24.99,Canceled
+ORD-1016,Elena Nguyen,elena.nguyen16@example.com,usa,09/07/2024,Monitor,1000000,189.00,cancelled
+ORD-1025,Mei Nguyen,mei.nguyen25@example.com,india,2024-08-17,Mouse,two,19.99, shipped
+ORD-1102,Jamal Rossi,not-an-email,germany,May 04 2024,Laptop Stand,four,34.95,PENDING
+ORD-1051,Mei Garcia,bob@@example,Germany,06/04/2024,Laptop Stand,three,$34.95,cancelled
+ORD-1008,Liam Patel,liam.patel8@example.com,USA,May 05 2024,Laptop Stand,two,34.95,Canceled
+ORD-1046,Ravi Nguyen,ravi.nguyen46@example.com,USA,05/15/2024,Keyboard,one,49.99,pending
+ORD-1106,Hiro Brown,,England,Jul 14 2024,Keyboard,four,49.99,CANCELLED
+ORD-1091,Hiro Kim,hiro.kim91@example.com,DE,2024-04-25,USB Cable,two,7.50,SHIPPED
+ORD-1098,Deepak Brown,deepak.brown98@example.com,Germany,2024-04-06,Keyboard,five,49.99,Pending
+ORD-1047,Tariq Brown,tariq.brown47@example.com,,2024-07-16,Webcam,five,$59.00,pending
+ORD-1116,Isla Muller,isla.muller116@example.com,IND,02/24/2024,Laptop Stand,two,34.95,Pending
+ORD-1092,Elena Jones,elena.jones92@example.com,IN,Aug 12 2024,Keyboard,one,49.99,Pending
+ORD-1061,carla brown,carla.brown61@example.com,England,07/31/2024,Headset,one,79.90,cancelled
+ORD-1028,Farid Brown,farid.brown28@example.com,germany,May 26 2024,Keyboard,four,49.99,PENDING
+ORD-1110,Priya Rossi,priya.rossi110@example.com,usa,04/26/2024,Keyboard,one,49.99, shipped
+ORD-1089,Hiro Garcia,hiro.garcia89@example.com,IND,Aug 18 2024,Mouse,five,19.99, shipped
+ORD-1087,  TARIQ KHAN ,tariq.khan87@example.com,germany,06/01/2024,USB Cable,five,$7.50,???
+ORD-1036,Jamal Khan,jamal.khan36@example.com,United Kingdom,Mar 09 2024,Keyboard,three,49.99,cancelled
+ORD-1082,Deepak Patel,deepak.patel82@example.com,india,06/03/2024,Laptop Stand,one,34.95,PENDING
+ORD-1079,Jamal Khan,jamal.khan79@example.com,DE,2024-06-25,Webcam,four,59.00,CANCELLED
+ORD-1063,Noah Rossi,noah.rossi63@example.com,germany,08/11/2024,USB Cable,four,7.50,shipped
+ORD-1117,Sofia Nguyen,,,05/20/2024,Laptop Stand,one,34.95,shipped
+ORD-1048,Isla Smith,isla.smith48@example.com, US ,not a date,Headset,three,79.90,Canceled
+ORD-1105,Ravi Rossi,ravi.rossi105@example.com,Germany,05/02/2024,Headset,five,79.90,Pending
+ORD-1020,Quinn Muller,quinn.muller20@example.com,India,2024-06-22,Mouse,one,19.99,Shipped
+ORD-1094,Kavya Khan,kavya.khan94@example.com,USA,01/11/2024,Laptop Stand,three,34.95,shipped
+ORD-1108,Quinn Muller,quinn.muller108@example.com,india,02/08/2024,Keyboard,four,49.99,Pending
+ORD-1076,Kavya Garcia,kavya.garcia76@example.com,IN,06/23/2024,Desk Lamp,three,24.99,PENDING
+ORD-1054,Elena Smith,elena.smith54@example.com,India,08/21/2024,Keyboard,four,49.99,PENDING
+ORD-1070,Tariq Jones,tariq.jones70@example.com,,06/08/2024,Monitor,five,189.00, shipped
+ORD-1090,Jamal Smith,jamal.smith90@example.com,u.k.,08/20/2024,USB Cable,one,7.50,CANCELLED
+,Liam Brown,liam.brown96@example.com,United Kingdom,Mar 23 2024,Webcam,,59.00,Canceled
+ORD-1086,Bob Garcia,bob.garcia86@example.com,UK,Mar 01 2024,Monitor,five,189.00, shipped
+ORD-1048,Isla Smith,isla.smith48@example.com, US ,not a date,Headset,three,79.90,Canceled
+ORD-1059,Hiro Kim,hiro.kim59@example.com,usa,2024-13-45,Desk Lamp,three,24.99,Canceled
+ORD-1050,Noah Nguyen,noah.nguyen50@example.com,UK,04/08/2024,Headset,four,79.90,CANCELLED
+ORD-1049,Carla Nguyen,carla.nguyen49@example.com,usa,2024-09-16,Webcam,three,59.00,CANCELLED
+ORD-1069,Priya Jones,priya.jones69@example.com,germany,Jul 07 2024,USB Cable,-3,7.50,CANCELLED
+ORD-1114,Hiro Muller,hiro.muller114@example.com,DE,2024-01-05,Laptop Stand,four,34.95,Pending
+ORD-1031,Bob Rossi,bob.rossi31@example.com,India,2024-04-30,Mouse,four,19.99,shipped
+ORD-1013,Tariq Jones,tariq.jones13@example.com,germany,2024-09-27,Headset,three,79.90,CANCELLED
+ORD-1106,Hiro Brown,,England,2024-07-14,Keyboard,four,49.99,CANCELLED
+ORD-1064,Mei Nguyen,mei.nguyen64@example.com,india,2024-01-14,Headset,four,79.90,PENDING
+ORD-1039,Alice Nguyen,alice.nguyen39@example.com,England,08/06/2024,Monitor,five,189.00,shipped
+ORD-1005,Deepak Nguyen,deepak.nguyen5@example.com,England,03/04/2024,Webcam,four,59.00,shipped
+ORD-1034,Carla Smith,carla.smith34@example.com, US ,04/19/2024,Desk Lamp,five,abc,SHIPPED
+ORD-1006,Ravi Kim,ravi.kim6@example.com,India,01/24/2024,Webcam,two,59.00,Canceled
+ORD-1018,Carla Rossi,carla.rossi18@example.com,IND,Mar 25 2024,Monitor,three,189.00,CANCELLED
+ORD-1015,  ALICE KIM ,alice.kim15@example.com,usa,Sep 16 2024,Monitor,five,189.00,cancelled
+ORD-1053,Farid Jones,farid.jones53@example.com,UK,06/07/2024,Laptop Stand,two,34.95,Shipped
+ORD-1004,noah nguyen,noah.nguyen4@example.com,IN,02/22/2024,Laptop Stand,one,34.95, shipped
+ORD-1078,Priya Muller,priya.muller78@example.com,usa,2024-04-23,Desk Lamp,four,24.99,Shipped
+ORD-1119,Isla Garcia,isla.garcia119@example.com,U.S.,2024-01-18,Mouse,five,19.99,Pending
+ORD-1017,Liam Kim,liam.kim17@example.com, US ,02/10/2024,USB Cable,one,7.50, shipped
+ORD-1057,Elena Muller,elena.muller57@example.com,DE,2024-09-15,Webcam,four,59.00,CANCELLED
+ORD-1084,Deepak Smith,deepak.smith84@example.com,germany,Jun 23 2024,Laptop Stand,two,34.95,pending
